@@ -1,0 +1,50 @@
+<form action="index.php" method="POST" enctype="multipart/form-data">
+    <label for="username">Username:</label>
+    <input type="text" id="username" placeholder="Enter Username" minlength="6" maxlength="15" required><br>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" placeholder="Enter Password"><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" placeholder="example@example.com" required><br>
+
+    <label for="phone">Phone:</label>
+    <input type="tel" id="phone" placeholder="123-456-7890" required><br>
+
+    <label for="dob">Date of Birth:</label>
+    <input type="date" id="dob"><br>
+
+    <label for="quantity">Quantity:</label>
+    <input type="number" id="quantity" min="0" max="99" value="1"><br>
+
+    <label for="color">Color:</label>
+    <input type="color" id="color"><br>
+
+    <label for="title">Title:</label>
+    <label for="Mrs."><input type="radio" name="title" value="Mrs."> Mrs.
+    <label for="Ms."><input type="radio" name="title" value="Ms."> Ms.
+    <label for="Mr."><input type="radio" name="title" value="Mr."> Mr.
+    <label for="Dr."><input type="radio" name="title" value="Dr."> Dr.<br>
+    
+    <label for="payment">Payment Method:</label>
+    <select id="payment">
+        <option value="Visa">Visa</option>
+        <option value="MasterCard">MasterCard</option>
+        <option value="paypal">PayPal</option>
+    </select><br>
+
+    <label for="subscribe">Subscribe</label>
+    <input type="checkbox" id="subscribe"><br>
+
+    <label for="file">Upload a file:</label>
+    <input type="file" id="file" accept=".pdf,.doc,.docx,image/png,image/jpeg"><br>
+
+    <label for="comments">Comments:</label>
+    <textarea id="comments" rows="3" cols="25" placeholder="Enter your comments here..."></textarea><br>
+
+    <label for="range">Select a range:</label>
+    <input type="range" id="range" min="0" max="100"><br>
+
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset"> 
+</form>
